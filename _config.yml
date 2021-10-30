@@ -4,8 +4,8 @@
 
 # Site
 title: iHaN's blog
-subtitle: ''
-description: Ride or die
+subtitle: Better to run than curse the road
+description: 现在我家里挂了拳击袋，能把他们全击败。
 keywords:
 author: iHaN-o
 language: zh-CN
@@ -98,6 +98,33 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-next
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-z16 #要使用的模型名称（文件夹名）
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
+
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
