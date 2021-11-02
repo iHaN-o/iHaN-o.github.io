@@ -40,8 +40,8 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  small: /images/ghost.ico
+  medium: /images/ghost.ico
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
@@ -227,8 +227,13 @@ chat:
 
 # 樱花飘落动特效
 sakura:
-  enable: true
+  enable: false
 
+  # 雪花特效2
+snowcl: false
+
+# circle
+snowcir: true
 
 # ---------------------------------------------------------------
 # Post Settings

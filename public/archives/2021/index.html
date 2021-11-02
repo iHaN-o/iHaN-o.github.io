@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 5.4.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/ghost.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/ghost.ico">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -209,14 +209,14 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
-              datetime="2021-10-30T14:27:36+08:00"
-              content="2021-10-30">
-          10-30
+              datetime="2021-11-02T12:50:02+08:00"
+              content="2021-11-02">
+          11-02
         </time>
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2021/10/30/hello-world/" itemprop="url">
+          <a class="post-title-link" href="/2021/11/02/hello-world/" itemprop="url">
             <span itemprop="name">Hello World</span>
           </a>
       </div>
@@ -405,9 +405,16 @@
 
 <!-- 樱花特效 -->
   
-      <script async src="/js/src/fairyDustCursor.js"></script>
-  
 
+<!-- 雪花特效3 -->
+<% if (theme.snowcir){ %>
+  <script type="text/javascript" src="/js/src/snow_cir.js"></script>
+<% } %>
+
+<!-- 雪花特效2 -->
+<% if (theme.snowcl){ %>
+  <script type="text/javascript" src="/js/src/snow_cl.js"></script>
+<% } %>
 
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>

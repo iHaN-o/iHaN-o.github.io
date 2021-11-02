@@ -65,6 +65,15 @@
       <script async src="/js/src/fairyDustCursor.js"></script>
   {% endif %}
 
+<!-- 雪花特效3 -->
+<% if (theme.snowcir){ %>
+  <script type="text/javascript" src="/js/src/snow_cir.js"></script>
+<% } %>
+
+<!-- 雪花特效2 -->
+<% if (theme.snowcl){ %>
+  <script type="text/javascript" src="/js/src/snow_cl.js"></script>
+<% } %>
 
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
